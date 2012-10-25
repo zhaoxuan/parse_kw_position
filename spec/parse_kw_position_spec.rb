@@ -2,7 +2,7 @@
 require 'rubygems'
 require 'parse_kw_position'
 
-describe ParseKwPosition, "" do
+describe ParseKwPosition, "ParseKwPosition test" do
 
   it "initialize a new parse_kw_position with keyword and url" do
     pkwp = ParseKwPosition.new("http://www.google.com")

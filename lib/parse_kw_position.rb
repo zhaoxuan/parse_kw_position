@@ -11,7 +11,8 @@ class ParseKwPosition
   end
 
   def get_html_from_se(keyword)
-    @html = Nokogiri::HTML(open("#{@se_url}#{keyword}"))
+    # @html = Nokogiri::HTML(open("#{@se_url}#{keyword}"))
+    @html = Nokogiri::HTML(File.open("/Users/john.zhao/workspaces/bid_to_position/yurongfu.html"))
   end
 
   def test_html_spec
