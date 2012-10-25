@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GetPosition	lib/get_position.rb	/^class GetPosition$/;"	c
+ParseKwPosition	lib/parse_kw_position.rb	/^class ParseKwPosition$/;"	c
+get_html_from_se	lib/parse_kw_position.rb	/^  def get_html_from_se(keyword)$/;"	f	class:ParseKwPosition
+get_kw_info	lib/parse_kw_position.rb	/^  def get_kw_info(keyword, domain_name)$/;"	f
+get_position	lib/get_position.rb	/^  def get_position(keyword, domain_name)$/;"	f	class:GetPosition
+initialize	lib/get_position.rb	/^  def initialize(search_engine)$/;"	f	class:GetPosition
+initialize	lib/parse_kw_position.rb	/^  def initialize(se_url)$/;"	f	class:ParseKwPosition
+right_sponsor	lib/parse_kw_position.rb	/^  def right_sponsor$/;"	f
+sponsors_array	lib/parse_kw_position.rb	/^  def sponsors_array$/;"	f
+string2position	lib/get_position.rb	/^  def string2position(str_posiion)$/;"	f	class:GetPosition
+test_html_spec	lib/parse_kw_position.rb	/^  def test_html_spec$/;"	f	class:ParseKwPosition
+top_and_bottom_sponsor	lib/parse_kw_position.rb	/^  def top_and_bottom_sponsor$/;"	f	class:ParseKwPosition
