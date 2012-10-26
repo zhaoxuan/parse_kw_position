@@ -16,7 +16,7 @@ class ParseKwPosition
   end
 
   def test_html_spec
-    @html = Nokogiri::HTML('')
+    @html = Nokogiri::HTML(File.open("/Users/john.zhao/workspaces/bid_to_position/yurongfu.html"))
   end
 
   def top_and_bottom_sponsor

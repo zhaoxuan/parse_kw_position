@@ -20,16 +20,22 @@ initialize	lib/position.rb	/^  def initialize(search_engine)$/;"	f	class:Positio
 parse_position_str	lib/position.rb	/^  def parse_position_str(position_str)$/;"	f	class:Position
 string2position	lib/position.rb	/^  def string2position(str_position)$/;"	f	class:Position
 Price	lib/price.rb	/^class Price$/;"	c
-handle_price	lib/price.rb	/^  def handle_price$/;"	f	class:Price
+average_price	lib/price.rb	/^  def average_price(price1, price2)$/;"	f	class:Price
+calculate_price	lib/price.rb	/^  def calculate_price(price, price_range)$/;"	f	class:Price
+change_price	lib/price.rb	/^  def change_price(range)$/;"	f	class:Price
+handle	lib/price.rb	/^  def handle$/;"	f	class:Price
 has_ad_position?	lib/price.rb	/^  def has_ad_position?$/;"	f	class:Price
-increase_price	lib/price.rb	/^  def increase_price$/;"	f	class:Price
-initialize	lib/price.rb	/^  def initialize(exp_position, exp_number, cur_position, cur_number,$/;"	f	class:Price
+history_large_two?	lib/price.rb	/^  def history_large_two?$/;"	f	class:Price
+increase_price	lib/price.rb	/^  def increase_price(change_range)$/;"	f	class:Price
+initialize	lib/price.rb	/^  def initialize(history, exp_position)$/;"	f	class:Price
 is_match_condition?	lib/price.rb	/^  def is_match_condition?$/;"	f	class:Price
+judge_price	lib/price.rb	/^  def judge_price$/;"	f	class:Price
 modify_price	lib/price.rb	/^  def modify_price$/;"	f	class:Price
-reduce_price	lib/price.rb	/^  def reduce_price$/;"	f	class:Price
-set_current_position	lib/price.rb	/^  def set_current_position(cur_position, cur_number)$/;"	f	class:Price
+reduce_price	lib/price.rb	/^  def reduce_price(change_range)$/;"	f	class:Price
+set_current	lib/price.rb	/^  def set_current(cur_position, cur_number, cur_price)$/;"	f	class:Price
 set_expect_position	lib/price.rb	/^  def set_expect_position(exp_position, exp_number)$/;"	f	class:Price
-set_regulation	lib/price.rb	/^  def set_regulation(change_times, highest_price)$/;"	f	class:Price
+set_regulation	lib/price.rb	/^  def set_regulation(change_times, highest_price, arr_position, range)$/;"	f	class:Price
+special_calculate?	lib/price.rb	/^  def special_calculate?(last_two_history)$/;"	f	class:Price
 whether_modify_price?	lib/price.rb	/^  def whether_modify_price?$/;"	f	class:Price
 call_cloud	yurongfu.html	/^function call_cloud(a){$/;"	f
 dttl	yurongfu.html	/^		<div class="rb">  <h3 class="pt">  <!--awbg0-->  <a name="dttl" target="_blank" id="uigs_d0_0" href="http:\/\/www.maigoo.com\/maigoo\/095yrf_index.html"><!--awbg0--><em><!--red_beg-->羽绒服<!--red_end--><\/em>十大品牌_<em><!--red_beg-->羽绒服<!--red_end--><\/em>品牌大全_女士男士冬装品牌<\/a>  <\/h3>  <div class="ft" id="cacheresult_summary_0">  <!--summary_beg-->这里是一站式＂经销商-专卖店＂平台 &gt;&gt; &gt;&gt; 这里是以＂导购-购物、产品价格、TOP10产品排行＂为核心的导航入口 &gt;&gt; 十大品牌榜中榜，名牌<em><!--red_beg-->羽绒服<!--red_end--><\/em>，什么牌子的<em><!--red_beg-->羽绒服<!--red_end--><\/em>好（...<!--summary_end--><\/div>  <div class="fb">  <cite id="cacheresult_info_0">www.maigoo.com\/maigoo\/095yrf_index.html&nbsp;-&nbsp;2012-10-17<\/cite>  <!--resultinfodate:2012-10-17-->&nbsp;-&nbsp;<!--resultsnap_beg--><a target="_blank" style="color: #666666;" href="http:\/\/www.sogou.com\/websnapshot?&amp;url=http%3A%2F%2Fwww.maigoo.com%2Fmaigoo%2F095yrf_index.html&amp;did=75533887a6dc10dc-f597edbcbea493fd-ff7e4817563538f82f8abfa085bb21ca&amp;k=4ee4df4aefac4c08efe096d181db6cba&amp;encodedQuery=yurongfu&amp;query=yurongfu&amp;&amp;w=01020400&amp;m=0&amp;st=0" id="sogou_snapshot_0">快照<!--resultsnap_end--><\/a>  &nbsp;-&nbsp;<a name="sogou_preview_links" style="color: #666666;" href="javascript:void(null);" id="sogou_preview_0" onclick="sogou_preview('sogou_preview_0', 'link_0');return false;" sogou_preview_title="<em><!--red_beg-->羽绒服<!--red_end--><\/em>十大品牌_<em><!--red_beg-->羽绒服<!--red_end--><\/em>品牌大全_女士男士冬装品牌" sogou_preview_link="http:\/\/www.maigoo.com\/maigoo\/095yrf_index.html" url="\/websnapshot?preview=1&amp;url=http%3A%2F%2Fwww.maigoo.com%2Fmaigoo%2F095yrf_index.html&amp;did=75533887a6dc10dc-f597edbcbea493fd-ff7e4817563538f82f8abfa085bb21ca&amp;k=4ee4df4aefac4c08efe096d181db6cba&amp;encodedQuery=yurongfu&amp;query=yurongfu&amp;&amp;title=%D3%F0%C8%DE%B7%FE%CA%AE%B4%F3%C6%B7%C5%C6_%D3%F0%C8%DE%B7%FE%C6%B7%C5%C6%B4%F3%C8%AB_%C5%AE%CA%BF%C4%D0%CA%BF%B6%AC%D7%B0%C6%B7%C5%C6&amp;st=0">预览<\/a>  <\/div>  <\/div>  <!--STATUS VR OK--><!--VR TYPE:,RANK:0-->$/;"	a
