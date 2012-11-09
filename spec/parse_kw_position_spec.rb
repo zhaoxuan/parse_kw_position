@@ -16,13 +16,13 @@ describe ParseKwPosition, "ParseKwPosition test" do
 
   it "should get position with the keyword" do
     pkwp = ParseKwPosition.new("http://www.sogou.com/web?query=")
-    pkwp.get_kw_info("yurongfu", "www.dahongbao.com").should_not eq(nil)
+    pkwp.get_kw_info("羽绒服", "www.dahongbao.com").should_not eq(nil)
   end
 
   it "sholud get array with top and bottom sponsor" do
     pkwp = ParseKwPosition.new("http://www.sogou.com/web?query=")
     pkwp.get_html_from_se("yurongfu")
-    pkwp.top_and_bottom_sponsor
+    pkwp.sponsors_array
   end
 
 end
